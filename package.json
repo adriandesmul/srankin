@@ -1,0 +1,26 @@
+{
+  "name": "srankin",
+  "version": "1.0.0",
+  "description": "srankin.com",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node index.js --production",
+    "dev": "node index.js --local & http-server ./dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adriandesmul/srankin.git"
+  },
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/adriandesmul/srankin/issues"
+  },
+  "homepage": "https://github.com/adriandesmul/srankin#readme",
+  "dependencies": {
+    "http-server": "^0.11.1",
+    "mkdirp": "^0.5.1",
+    "nunjucks": "^3.1.4",
+    "watch": "^1.0.2"
+  }
+}
